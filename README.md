@@ -5,4 +5,4 @@ gurt
 [![LICENSE](https://img.shields.io/github/license/AndrewRobsonNapier/devops.svg?style=flat-square)](https://github.com/AndrewRobsonNapier/devops/blob/master/LICENSE)
 [![Releases](https://img.shields.io/github/release/AndrewRobsonNapier/devops/all.svg?style=flat-square)](https://github.com/AndrewRobsonNapier/devops/releases)
 # DevOps
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/AndrewRobsonNapier/SEM/main.yml/<branch>?style=flat-square)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/AndrewRobsonNapier/SEM/main.yml/develop?style=flat-square)
