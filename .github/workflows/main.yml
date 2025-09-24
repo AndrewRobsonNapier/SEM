@@ -1,4 +1,4 @@
-name: A workflow for my Hello World app
+name: A workflow for my Hello World App
 on: push
 
 jobs:
@@ -13,13 +13,11 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
-      - name: compile with Maven
+      - name: Compile with Maven
         run: mvn compile
       - name: Build Docker Image
-        run: docker build -t devopsimage
+        run: docker build -t devopsimage .
       - name: Run image
         run: docker run --name devopscontainer -d devopsimage
       - name: view logs
         run: docker logs devopscontainer
-      
-      
